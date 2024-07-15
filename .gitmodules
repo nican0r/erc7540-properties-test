@@ -4,3 +4,6 @@
 [submodule "lib/chimera"]
 	path = lib/chimera
 	url = https://github.com/Recon-Fuzz/chimera
+[submodule "Documents/GitHub/Auditing/Fuzzing/Blogs/Foundry_Counter_Example/hello_foundry/lib/forge-std"]
+	path = Documents/GitHub/Auditing/Fuzzing/Blogs/Foundry_Counter_Example/hello_foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
