@@ -3,5 +3,11 @@ src = "src"
 out = "out"
 libs = ["lib"]
 no_match_contract = "CryticTester"
+remappings = [
+  'forge-std/=lib/forge-std/src/',
+  'liquidity-pools/=lib/liquidity-pools/src/',
+  'erc7540-reusable-properties/=lib/erc7540-reusable-properties/src/',
+  '@chimera/=lib/chimera/src/'
+]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
